@@ -1,0 +1,74 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+
+.top-knowledge {
+  border-right: 1px solid #CCC;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.knowledge-tree {
+  display: flex;
+  text-align: left;
+}
+.knowledge-tree dl dt {
+  color: #333;
+  font-size: 14px;
+  cursor: pointer;
+}
+.knowledge-tree dd {
+  color: #ccc;
+  font-size: 12px;
+}
+.level1 {
+  color: red;
+}
+.level2 {
+  color: orange;
+}
+.level3 {
+  color: yellow;
+}
+.level4 {
+  color: green;
+}
+.level5 {
+  color: blue;
+}
+.level6 {
+  color: indigo;
+}
+.level7 {
+  color: violet;
+}
+.word-cloud-wrapper {
+  position: fixed;
+  top: 0;
+  right: 10px;
+}
